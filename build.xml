@@ -1,0 +1,17 @@
+<project name="Persistent Project" default="all">
+	<target name="all" depends="init">
+	<echo>
+	Welcome to ANT script!!!!!
+	
+	</echo>
+	
+	</target>
+	<target name="init" depends="clean">
+	<echo>Initialization</echo>
+	</target>
+	<target name="clean">
+	<echo message="Cleaning"></echo>
+	</target>
+
+
+</project>
